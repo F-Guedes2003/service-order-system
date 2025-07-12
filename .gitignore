@@ -4,7 +4,7 @@
 profiles.clj
 pom.xml
 pom.xml.asc
-.clj-kondo
+.clj-kondo/
 *.jar
 *.class
 /.lein-*
@@ -12,3 +12,4 @@ pom.xml.asc
 /.prepl-port
 .hgignore
 .hg/
+.lsp
