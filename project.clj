@@ -8,7 +8,8 @@
                  [ring/ring-core "1.14.2"]
                  [metosin/muuntaja "0.6.11"]
                  [ring/ring-jetty-adapter "1.14.2"]
-                 [cc.qbits/alia-all "4.3.7-beta1"]]
+                 [cc.qbits/alia-all "4.3.7-beta1"]
+                 [org.apache.kafka/kafka-clients "3.7.0"]]
   :main ^:skip-aot ordem-pedidos.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all

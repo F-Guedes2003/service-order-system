@@ -9,6 +9,7 @@
   (ring/router 
    ["/api"
     ["/v1"
+     ["/producer-test" {:post fun/producer-test}]
      ["/health" {:get fun/hello-fun}]]]
    {:data {:muuntaja m/instance
            :middleware [muuntaja/format-middleware]}}))
