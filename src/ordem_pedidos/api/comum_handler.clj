@@ -1,4 +1,4 @@
-(ns ordem-pedidos.comum-handler)
+(ns ordem-pedidos.api.comum-handler)
 
 (defn http-200-handler 
   "Return of a succesful request"

@@ -1,9 +1,9 @@
-(ns ordem-pedidos.routes
+(ns ordem-pedidos.api.routes
   (:require
    [reitit.ring :as ring]
    [muuntaja.core :as m]
    [reitit.ring.middleware.muuntaja :as muuntaja]
-   [ordem-pedidos.functions :as fun]))
+   [ordem-pedidos.api.functions :as fun]))
 
 (def router 
   (ring/router 

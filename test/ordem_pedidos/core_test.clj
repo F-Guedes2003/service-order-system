@@ -1,8 +1,8 @@
 (ns ordem-pedidos.core-test
   (:require [clojure.test :refer :all]
             [ordem-pedidos.core :refer :all]
-            [ordem-pedidos.functions :as functions]
-            [ordem-pedidos.comum-handler :as comum-handler]))
+            [ordem-pedidos.api.functions :as functions]
+            [ordem-pedidos.api.comum-handler :as comum-handler]))
 
 (deftest health-test 
   (testing "the health function"

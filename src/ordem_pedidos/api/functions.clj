@@ -1,7 +1,7 @@
-(ns ordem-pedidos.functions
+(ns ordem-pedidos.api.functions
   (:require
-   [ordem-pedidos.comum-handler :as handler]
-   [ordem-pedidos.producer :as producer]))
+   [ordem-pedidos.api.comum-handler :as handler]
+   [ordem-pedidos.api.producer :as producer]))
 
 (defn producer-test
   "Function to check if the kafka producer is working"

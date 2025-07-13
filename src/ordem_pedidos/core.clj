@@ -2,7 +2,7 @@
   (:gen-class)
   (:require 
    [reitit.ring :as ring]
-   [ordem-pedidos.routes :as routes]
+   [ordem-pedidos.api.routes :as routes]
    [ring.adapter.jetty :as jetty]))
 
 (def app 

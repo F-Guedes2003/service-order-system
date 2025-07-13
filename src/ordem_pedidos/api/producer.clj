@@ -1,4 +1,4 @@
-(ns ordem-pedidos.producer
+(ns ordem-pedidos.api.producer
   (:require [cheshire.core :as json])
   (:import 
    [java.util Properties]
